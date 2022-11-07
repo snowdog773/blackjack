@@ -1,0 +1,101 @@
+body {
+  background-image: url("../assets/baize.png");
+  background-size: cover;
+  color: #ddd;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  background-color: #000;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding: 10px;
+  text-align: center;
+  border-bottom: solid 2px #ddd;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+button.shuffle {
+  display: block;
+  margin: 10px auto;
+}
+
+.gameGrid {
+  display: flex;
+  justify-content: center;
+}
+
+.gameTile {
+  width: 200px;
+  padding: 20px 0;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+
+  background-color: #0007;
+  margin: 20px;
+  text-align: center;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  min-width: 50px;
+  min-height: 75px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  font-weight: bold;
+}
+
+.cardBack {
+  background-color: #000;
+  color: #fff;
+  min-width: 50px;
+  min-height: 75px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cardBack h4 {
+  font-size: 1.5rem;
+  margin: 20px 0 0 0;
+}
+.cardBack p {
+  margin: 0;
+}
+.cardTopLeft {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.smallSuit {
+  height: 16px;
+  width: 16px;
+
+  justify-self: center;
+  align-self: center;
+}
+
+.cardBottomRight {
+  display: flex;
+  justify-content: flex-end;
+}
